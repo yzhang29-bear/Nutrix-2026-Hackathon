@@ -1,0 +1,7 @@
+# Build context = only what the image needs (the project folder also holds data sets and virtual environments)
+*
+!pmrf/
+!service/
+!deploy/requirements.txt
+!deploy/model_store/
+**/__pycache__

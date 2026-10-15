@@ -1,0 +1,769 @@
+{
+ "meal_id": "036_0406_1157_lunch",
+ "person_id": "036",
+ "input": {
+  "note": "What the app sends for this meal (POST /predict) plus the recent signals the service already has.",
+  "request": {
+   "photo_key": "photos/036_00000064.jpg",
+   "meal_time": "2022-04-06T11:57:00",
+   "meal_type": "lunch",
+   "log_meal": false
+  },
+  "recent_cgm_mgdl": [
+   {
+    "timestamp": "2022-04-06T09:55:00",
+    "value": 249.1
+   },
+   {
+    "timestamp": "2022-04-06T10:00:00",
+    "value": 248.8
+   },
+   {
+    "timestamp": "2022-04-06T10:05:00",
+    "value": 245.8
+   },
+   {
+    "timestamp": "2022-04-06T10:10:00",
+    "value": 241.1
+   },
+   {
+    "timestamp": "2022-04-06T10:15:00",
+    "value": 237.8
+   },
+   {
+    "timestamp": "2022-04-06T10:20:00",
+    "value": 237.8
+   },
+   {
+    "timestamp": "2022-04-06T10:25:00",
+    "value": 238.7
+   },
+   {
+    "timestamp": "2022-04-06T10:30:00",
+    "value": 238.0
+   },
+   {
+    "timestamp": "2022-04-06T10:35:00",
+    "value": 232.4
+   },
+   {
+    "timestamp": "2022-04-06T10:40:00",
+    "value": 224.9
+   },
+   {
+    "timestamp": "2022-04-06T10:45:00",
+    "value": 221.9
+   },
+   {
+    "timestamp": "2022-04-06T10:50:00",
+    "value": 215.4
+   },
+   {
+    "timestamp": "2022-04-06T10:55:00",
+    "value": 203.7
+   },
+   {
+    "timestamp": "2022-04-06T11:00:00",
+    "value": 193.2
+   },
+   {
+    "timestamp": "2022-04-06T11:05:00",
+    "value": 187.8
+   },
+   {
+    "timestamp": "2022-04-06T11:10:00",
+    "value": 184.6
+   },
+   {
+    "timestamp": "2022-04-06T11:15:00",
+    "value": 181.5
+   },
+   {
+    "timestamp": "2022-04-06T11:20:00",
+    "value": 176.4
+   },
+   {
+    "timestamp": "2022-04-06T11:25:00",
+    "value": 174.1
+   },
+   {
+    "timestamp": "2022-04-06T11:30:00",
+    "value": 171.6
+   },
+   {
+    "timestamp": "2022-04-06T11:35:00",
+    "value": 167.9
+   },
+   {
+    "timestamp": "2022-04-06T11:40:00",
+    "value": 166.1
+   },
+   {
+    "timestamp": "2022-04-06T11:45:00",
+    "value": 163.5
+   },
+   {
+    "timestamp": "2022-04-06T11:50:00",
+    "value": 158.9
+   },
+   {
+    "timestamp": "2022-04-06T11:55:00",
+    "value": 153.2
+   }
+  ],
+  "recent_heart_rate_bpm": [
+   {
+    "timestamp": "2022-04-06T09:55:00",
+    "value": 88.7
+   },
+   {
+    "timestamp": "2022-04-06T10:00:00",
+    "value": 90.0
+   },
+   {
+    "timestamp": "2022-04-06T10:05:00",
+    "value": 86.0
+   },
+   {
+    "timestamp": "2022-04-06T10:10:00",
+    "value": 80.4
+   },
+   {
+    "timestamp": "2022-04-06T10:15:00",
+    "value": 84.2
+   },
+   {
+    "timestamp": "2022-04-06T10:20:00",
+    "value": 84.0
+   },
+   {
+    "timestamp": "2022-04-06T10:25:00",
+    "value": 95.2
+   },
+   {
+    "timestamp": "2022-04-06T10:30:00",
+    "value": 101.0
+   },
+   {
+    "timestamp": "2022-04-06T10:35:00",
+    "value": 83.2
+   },
+   {
+    "timestamp": "2022-04-06T10:40:00",
+    "value": 84.4
+   },
+   {
+    "timestamp": "2022-04-06T10:45:00",
+    "value": 87.2
+   },
+   {
+    "timestamp": "2022-04-06T10:50:00",
+    "value": 86.4
+   },
+   {
+    "timestamp": "2022-04-06T10:55:00",
+    "value": 81.4
+   },
+   {
+    "timestamp": "2022-04-06T11:00:00",
+    "value": 78.0
+   },
+   {
+    "timestamp": "2022-04-06T11:05:00",
+    "value": 78.0
+   },
+   {
+    "timestamp": "2022-04-06T11:10:00",
+    "value": 84.2
+   },
+   {
+    "timestamp": "2022-04-06T11:15:00",
+    "value": 81.8
+   },
+   {
+    "timestamp": "2022-04-06T11:20:00",
+    "value": 92.8
+   },
+   {
+    "timestamp": "2022-04-06T11:25:00",
+    "value": 90.6
+   },
+   {
+    "timestamp": "2022-04-06T11:30:00",
+    "value": 94.8
+   },
+   {
+    "timestamp": "2022-04-06T11:35:00",
+    "value": 95.0
+   },
+   {
+    "timestamp": "2022-04-06T11:40:00",
+    "value": 97.4
+   },
+   {
+    "timestamp": "2022-04-06T11:45:00",
+    "value": 94.6
+   },
+   {
+    "timestamp": "2022-04-06T11:50:00",
+    "value": 97.8
+   },
+   {
+    "timestamp": "2022-04-06T11:55:00",
+    "value": 95.0
+   }
+  ]
+ },
+ "output": {
+  "api_version": "0.1",
+  "person_id": "036",
+  "meal": {
+   "time": "2022-04-06 11:57:00",
+   "meal_type": "lunch",
+   "photo_tags": [
+    {
+     "label": "pasta",
+     "p": 0.39
+    },
+    {
+     "label": "a salad",
+     "p": 0.37
+    },
+    {
+     "label": "a burrito bowl with rice and beans",
+     "p": 0.12
+    }
+   ],
+   "estimated_nutrition": {
+    "carbs_g": 35.3,
+    "protein_g": 22.0,
+    "fat_g": 17.1,
+    "fiber_g": 5.1,
+    "kcal": 383.0,
+    "carbs_uncertainty_g": 35.7
+   },
+   "similar_past_meals": [
+    {
+     "photo_key": "photos/036_00000031.jpg",
+     "time": "2022-04-02 11:40:00",
+     "meal_type": "lunch",
+     "logged_carbs_g": 19.0,
+     "observed_peak_rise_mgdl": 0.0,
+     "similarity": 0.77
+    },
+    {
+     "photo_key": "photos/036_00000026.jpg",
+     "time": "2022-04-01 16:28:00",
+     "meal_type": "dinner",
+     "logged_carbs_g": 109.0,
+     "observed_peak_rise_mgdl": 0.0,
+     "similarity": 0.59
+    },
+    {
+     "photo_key": "photos/036_00000023.jpg",
+     "time": "2022-04-01 11:44:00",
+     "meal_type": "lunch",
+     "logged_carbs_g": 94.0,
+     "observed_peak_rise_mgdl": 48.0,
+     "similarity": 0.53
+    }
+   ]
+  },
+  "pre_meal_state": {
+   "glucose_mgdl": 151.6,
+   "trend_mgdl_per_min": -0.75,
+   "glucose_vs_24h_median_mgdl": 18.6,
+   "heart_rate_vs_resting_bpm": 38.7,
+   "minutes_since_last_meal": 236.0
+  },
+  "prediction": {
+   "curve": {
+    "minutes": [
+     0,
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     35,
+     40,
+     45,
+     50,
+     55,
+     60,
+     65,
+     70,
+     75,
+     80,
+     85,
+     90,
+     95,
+     100,
+     105,
+     110,
+     115,
+     120
+    ],
+    "glucose_mgdl": [
+     151.6,
+     148.6,
+     144.9,
+     143.4,
+     143.0,
+     143.6,
+     145.3,
+     148.7,
+     153.0,
+     157.1,
+     157.6,
+     156.9,
+     157.0,
+     156.0,
+     152.9,
+     150.6,
+     148.4,
+     148.3,
+     146.9,
+     145.5,
+     143.6,
+     142.9,
+     141.9,
+     141.0,
+     141.2
+    ],
+    "lower80": [
+     151.6,
+     144.5,
+     139.9,
+     134.9,
+     132.6,
+     129.4,
+     127.1,
+     128.4,
+     130.1,
+     129.9,
+     131.7,
+     129.7,
+     129.2,
+     128.4,
+     122.2,
+     119.7,
+     120.3,
+     119.7,
+     119.0,
+     117.4,
+     116.6,
+     115.1,
+     115.9,
+     114.1,
+     114.8
+    ],
+    "upper80": [
+     151.6,
+     151.3,
+     152.7,
+     156.3,
+     163.6,
+     168.1,
+     175.9,
+     182.9,
+     192.5,
+     197.8,
+     201.8,
+     202.9,
+     204.5,
+     202.7,
+     201.3,
+     200.2,
+     199.9,
+     198.6,
+     199.1,
+     197.0,
+     196.3,
+     194.2,
+     194.2,
+     195.7,
+     194.4
+    ]
+   },
+   "glucose_at_min": {
+    "30": 148.4,
+    "60": 158.5,
+    "90": 145.5,
+    "120": 140.6
+   },
+   "peak_glucose_mgdl": 176.8,
+   "peak_rise_mgdl": 25.2,
+   "time_to_peak_min": 21.0,
+   "iauc_0_120_mgdl_min": 608.0,
+   "prob_peak_above_mgdl": {
+    "140": 0.999,
+    "180": 0.396
+   }
+  },
+  "explanation": {
+   "target": "peak_rise_mgdl",
+   "population_baseline_mgdl": 41.2,
+   "contributions": [
+    {
+     "factor": "Personal profile (days 1-7)",
+     "mgdl": 12.0
+    },
+    {
+     "factor": "Glucose before meal",
+     "mgdl": -9.9
+    },
+    {
+     "factor": "Glucose trend before meal",
+     "mgdl": -6.2
+    },
+    {
+     "factor": "Meal type & time",
+     "mgdl": 3.5
+    },
+    {
+     "factor": "Similar meals: your history",
+     "mgdl": -2.7
+    },
+    {
+     "factor": "Similar meals: other people",
+     "mgdl": -1.3
+    },
+    {
+     "factor": "Previous meals",
+     "mgdl": -0.6
+    },
+    {
+     "factor": "Meal (from photo)",
+     "mgdl": 0.5
+    },
+    {
+     "factor": "Heart rate",
+     "mgdl": -0.5
+    },
+    {
+     "factor": "Medication",
+     "mgdl": 0.0
+    }
+   ]
+  },
+  "personalization": {
+   "history_meals": 21,
+   "your_avg_peak_rise_mgdl": 77.0,
+   "population_avg_peak_rise_mgdl": 49.3,
+   "your_rise_per_10g_carbs_mgdl": 11.7,
+   "your_mean_glucose_mgdl": 146.5,
+   "your_resting_hr_bpm": 57.0
+  },
+  "confidence": {
+   "level": "high",
+   "flags": []
+  },
+  "what_if": [
+   {
+    "scenario": "As photographed",
+    "peak_rise_mgdl": 25.2,
+    "peak_glucose_mgdl": 176.8,
+    "iauc_0_120_mgdl_min": 608.0,
+    "curve_mgdl": [
+     151.6,
+     148.6,
+     144.9,
+     143.4,
+     143.0,
+     143.6,
+     145.3,
+     148.7,
+     153.0,
+     157.1,
+     157.6,
+     156.9,
+     157.0,
+     156.0,
+     152.9,
+     150.6,
+     148.4,
+     148.3,
+     146.9,
+     145.5,
+     143.6,
+     142.9,
+     141.9,
+     141.0,
+     141.2
+    ]
+   },
+   {
+    "scenario": "Half the carbs",
+    "peak_rise_mgdl": 21.8,
+    "peak_glucose_mgdl": 173.4,
+    "iauc_0_120_mgdl_min": 433.0,
+    "curve_mgdl": [
+     151.6,
+     148.3,
+     144.4,
+     142.7,
+     142.0,
+     142.3,
+     143.7,
+     146.9,
+     150.8,
+     154.8,
+     154.9,
+     153.9,
+     153.9,
+     152.5,
+     149.0,
+     146.5,
+     144.3,
+     144.2,
+     142.8,
+     141.9,
+     140.6,
+     140.3,
+     139.3,
+     138.5,
+     138.6
+    ]
+   },
+   {
+    "scenario": "Add 20 g protein",
+    "peak_rise_mgdl": 21.7,
+    "peak_glucose_mgdl": 173.3,
+    "iauc_0_120_mgdl_min": 569.0,
+    "curve_mgdl": [
+     151.6,
+     148.5,
+     144.6,
+     142.8,
+     142.1,
+     142.2,
+     143.5,
+     146.5,
+     150.1,
+     153.9,
+     154.4,
+     153.7,
+     153.8,
+     152.9,
+     150.1,
+     148.2,
+     146.2,
+     146.4,
+     145.3,
+     144.1,
+     142.6,
+     142.1,
+     141.1,
+     140.2,
+     140.1
+    ]
+   },
+   {
+    "scenario": "Add 10 g fiber",
+    "peak_rise_mgdl": 24.5,
+    "peak_glucose_mgdl": 176.1,
+    "iauc_0_120_mgdl_min": 585.0,
+    "curve_mgdl": [
+     151.6,
+     148.4,
+     144.4,
+     142.7,
+     142.0,
+     142.5,
+     143.9,
+     147.3,
+     151.7,
+     156.1,
+     157.1,
+     156.5,
+     156.8,
+     155.9,
+     153.0,
+     150.8,
+     148.3,
+     147.9,
+     146.5,
+     145.4,
+     143.9,
+     143.4,
+     142.5,
+     141.8,
+     142.1
+    ]
+   },
+   {
+    "scenario": "Double portion",
+    "peak_rise_mgdl": 23.8,
+    "peak_glucose_mgdl": 175.4,
+    "iauc_0_120_mgdl_min": 584.0,
+    "curve_mgdl": [
+     151.6,
+     148.0,
+     143.9,
+     142.0,
+     141.4,
+     141.6,
+     143.1,
+     146.5,
+     151.1,
+     155.5,
+     156.6,
+     156.2,
+     156.8,
+     156.3,
+     153.8,
+     152.1,
+     149.9,
+     149.8,
+     148.8,
+     148.1,
+     147.2,
+     147.1,
+     146.6,
+     146.8,
+     147.9
+    ]
+   }
+  ],
+  "latency_ms": {
+   "photo_encoder": 78.3,
+   "nutrition_and_tags": 1.2,
+   "features": 13.8,
+   "response_models": 44.7,
+   "total": 138.0,
+   "what_if": 47.0
+  },
+  "model_version": "v4-20261010"
+ },
+ "observed": {
+  "note": "Demo only: what really happened (Dexcom CGM and the participant's own food log). The live API never returns this.",
+  "minutes": [
+   0,
+   5,
+   10,
+   15,
+   20,
+   25,
+   30,
+   35,
+   40,
+   45,
+   50,
+   55,
+   60,
+   65,
+   70,
+   75,
+   80,
+   85,
+   90,
+   95,
+   100,
+   105,
+   110,
+   115,
+   120
+  ],
+  "glucose_mgdl": [
+   151.6,
+   140.4,
+   133.2,
+   128.8,
+   125.6,
+   126.6,
+   128.6,
+   132.2,
+   138.6,
+   145.6,
+   154.2,
+   159.2,
+   165.6,
+   172.6,
+   172.4,
+   168.8,
+   164.8,
+   164.0,
+   165.6,
+   165.2,
+   165.0,
+   165.0,
+   165.0,
+   161.8,
+   159.4
+  ],
+  "pre_meal_minutes": [
+   -120,
+   -115,
+   -110,
+   -105,
+   -100,
+   -95,
+   -90,
+   -85,
+   -80,
+   -75,
+   -70,
+   -65,
+   -60,
+   -55,
+   -50,
+   -45,
+   -40,
+   -35,
+   -30,
+   -25,
+   -20,
+   -15,
+   -10,
+   -5,
+   0
+  ],
+  "pre_meal_glucose_mgdl": [
+   249.4,
+   249.0,
+   245.8,
+   241.0,
+   237.6,
+   237.8,
+   238.8,
+   238.2,
+   232.4,
+   224.6,
+   222.2,
+   215.6,
+   203.6,
+   193.0,
+   187.8,
+   184.6,
+   181.6,
+   176.2,
+   174.2,
+   171.6,
+   167.8,
+   166.2,
+   163.6,
+   159.0,
+   151.6
+  ],
+  "peak_glucose_mgdl": 174.0,
+  "peak_rise_mgdl": 22.4,
+  "time_to_peak_min": 66.0,
+  "iauc_0_120_mgdl_min": 953.5,
+  "glucose_at_min": {
+   "30": 128.6,
+   "60": 165.6,
+   "90": 165.6,
+   "120": 159.4
+  },
+  "logged_nutrition": {
+   "carbs_g": 43.0,
+   "protein_g": 20.0,
+   "fat_g": 20.0,
+   "fiber_g": 13.0,
+   "kcal": 432.0
+  },
+  "curve_error_mgdl": 14.9
+ }
+}

@@ -1,0 +1,168 @@
+{
+ "about": "Showcase meals of the post-meal glucose model (CGMacros, unseen days 8+). See README.md.",
+ "model_version": "v4-20261010",
+ "people": [
+  {
+   "person_id": "001",
+   "study_group": "Healthy",
+   "week1_meals": 31,
+   "input": "people/001/input_week1.json",
+   "output": "people/001/output_profile.json"
+  },
+  {
+   "person_id": "011",
+   "study_group": "Prediabetes",
+   "week1_meals": 28,
+   "input": "people/011/input_week1.json",
+   "output": "people/011/output_profile.json"
+  },
+  {
+   "person_id": "022",
+   "study_group": "Prediabetes",
+   "week1_meals": 29,
+   "input": "people/022/input_week1.json",
+   "output": "people/022/output_profile.json"
+  },
+  {
+   "person_id": "036",
+   "study_group": "T2D",
+   "week1_meals": 21,
+   "input": "people/036/input_week1.json",
+   "output": "people/036/output_profile.json"
+  }
+ ],
+ "meals": [
+  {
+   "meal_id": "001_0510_1247_lunch",
+   "person_id": "001",
+   "meal_type": "lunch",
+   "time": "2020-05-10T12:47:00",
+   "photo": "photos/001_00000085.jpg",
+   "file": "meals/001_0510_1247_lunch.json",
+   "predicted_peak_rise_mgdl": 25.5,
+   "logged_peak_rise_mgdl": 26.6,
+   "curve_error_mgdl": 3.1
+  },
+  {
+   "meal_id": "001_0510_0927_breakfast",
+   "person_id": "001",
+   "meal_type": "breakfast",
+   "time": "2020-05-10T09:27:00",
+   "photo": "photos/001_00000083.jpg",
+   "file": "meals/001_0510_0927_breakfast.json",
+   "predicted_peak_rise_mgdl": 29.0,
+   "logged_peak_rise_mgdl": 26.0,
+   "curve_error_mgdl": 5.3
+  },
+  {
+   "meal_id": "001_0509_1346_lunch",
+   "person_id": "001",
+   "meal_type": "lunch",
+   "time": "2020-05-09T13:46:00",
+   "photo": "photos/001_00000077.jpg",
+   "file": "meals/001_0509_1346_lunch.json",
+   "predicted_peak_rise_mgdl": 10.9,
+   "logged_peak_rise_mgdl": 8.4,
+   "curve_error_mgdl": 6.5
+  },
+  {
+   "meal_id": "011_1010_1152_lunch",
+   "person_id": "011",
+   "meal_type": "lunch",
+   "time": "2020-10-10T11:52:00",
+   "photo": "photos/011_00000056.jpg",
+   "file": "meals/011_1010_1152_lunch.json",
+   "predicted_peak_rise_mgdl": 22.4,
+   "logged_peak_rise_mgdl": 13.0,
+   "curve_error_mgdl": 3.0
+  },
+  {
+   "meal_id": "011_1010_1549_snack",
+   "person_id": "011",
+   "meal_type": "snack",
+   "time": "2020-10-10T15:49:00",
+   "photo": "photos/011_00000058.jpg",
+   "file": "meals/011_1010_1549_snack.json",
+   "predicted_peak_rise_mgdl": 19.5,
+   "logged_peak_rise_mgdl": 22.0,
+   "curve_error_mgdl": 3.2
+  },
+  {
+   "meal_id": "011_1012_1854_dinner",
+   "person_id": "011",
+   "meal_type": "dinner",
+   "time": "2020-10-12T18:54:00",
+   "photo": "photos/011_00000077.jpg",
+   "file": "meals/011_1012_1854_dinner.json",
+   "predicted_peak_rise_mgdl": 51.9,
+   "logged_peak_rise_mgdl": 59.0,
+   "curve_error_mgdl": 8.7
+  },
+  {
+   "meal_id": "022_0404_1308_lunch",
+   "person_id": "022",
+   "meal_type": "lunch",
+   "time": "2021-04-04T13:08:00",
+   "photo": "photos/022_00000082.jpg",
+   "file": "meals/022_0404_1308_lunch.json",
+   "predicted_peak_rise_mgdl": 16.1,
+   "logged_peak_rise_mgdl": 16.0,
+   "curve_error_mgdl": 3.6
+  },
+  {
+   "meal_id": "022_0404_1630_snack",
+   "person_id": "022",
+   "meal_type": "snack",
+   "time": "2021-04-04T16:30:00",
+   "photo": "photos/022_00000084.jpg",
+   "file": "meals/022_0404_1630_snack.json",
+   "predicted_peak_rise_mgdl": 31.5,
+   "logged_peak_rise_mgdl": 36.8,
+   "curve_error_mgdl": 5.9
+  },
+  {
+   "meal_id": "022_0406_1931_dinner",
+   "person_id": "022",
+   "meal_type": "dinner",
+   "time": "2021-04-06T19:31:00",
+   "photo": "photos/022_00000108.jpg",
+   "file": "meals/022_0406_1931_dinner.json",
+   "predicted_peak_rise_mgdl": 25.2,
+   "logged_peak_rise_mgdl": 32.0,
+   "curve_error_mgdl": 7.4
+  },
+  {
+   "meal_id": "036_0407_0754_breakfast",
+   "person_id": "036",
+   "meal_type": "breakfast",
+   "time": "2022-04-07T07:54:00",
+   "photo": "photos/036_00000068.jpg",
+   "file": "meals/036_0407_0754_breakfast.json",
+   "predicted_peak_rise_mgdl": 126.7,
+   "logged_peak_rise_mgdl": 119.8,
+   "curve_error_mgdl": 8.0
+  },
+  {
+   "meal_id": "036_0405_1159_lunch",
+   "person_id": "036",
+   "meal_type": "lunch",
+   "time": "2022-04-05T11:59:00",
+   "photo": "photos/036_00000057.jpg",
+   "file": "meals/036_0405_1159_lunch.json",
+   "predicted_peak_rise_mgdl": 10.1,
+   "logged_peak_rise_mgdl": 0.0,
+   "curve_error_mgdl": 8.4
+  },
+  {
+   "meal_id": "036_0406_1157_lunch",
+   "person_id": "036",
+   "meal_type": "lunch",
+   "time": "2022-04-06T11:57:00",
+   "photo": "photos/036_00000064.jpg",
+   "file": "meals/036_0406_1157_lunch.json",
+   "predicted_peak_rise_mgdl": 25.2,
+   "logged_peak_rise_mgdl": 22.4,
+   "curve_error_mgdl": 14.9
+  }
+ ]
+}

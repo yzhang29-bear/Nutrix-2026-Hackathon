@@ -1,0 +1,20 @@
+# data, results and model binaries stay out of git (model versions live in s3://nutrix-models/models/)
+__pycache__/
+*.pyc
+.venv/
+cgmacros/
+data_ext/
+Type1Diabetes.parquet
+eda/
+figures/
+results/
+deploy/model_store/
+site/index.html
+site/demo_data.json
+site/fig/
+*.pkl
+*.npz
+*.parquet
+*.safetensors
+*.docx
+.env

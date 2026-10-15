@@ -1,0 +1,4 @@
+# Build context for server/Dockerfile: only server/ (the repo root also holds data sets and virtual environments)
+*
+!server/
+**/__pycache__

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GlucoTrack tokens remain available to the web build. Native components use
+   the matching semantic Tailwind utilities declared in tailwind.config.js. */
+:root {
+  --color-primary: #8fd3be;
+  --color-primary-hover: #52b69a;
+  --color-primary-soft: #d6efe6;
+  --color-on-primary: #1f4d40;
+  --color-on-primary-soft: #2e6b58;
+  --color-secondary: #ffd9a0;
+  --color-on-secondary: #6b4a12;
+  --color-accent: #a9c4e2;
+  --color-bg-page: #f6faf9;
+  --color-bg-surface: #ffffff;
+  --color-text-primary: #35505a;
+  --color-text-muted: #9aa8a6;
+  --color-border-primary: #8fd3be;
+  --color-border-subtle: #e6ebea;
+  --font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif;
+  --font-family-numeric: 'Atkinson Hyperlegible Mono', 'Atkinson Hyperlegible Next', ui-monospace, monospace;
+  --shadow-sm: 0 2px 4px rgba(12, 12, 32, 0.1);
+  --shadow-md: 0 4px 8px rgba(12, 12, 32, 0.1);
+  --shadow-lg: 0 4px 8px rgba(12, 12, 32, 0.15);
+  --shadow-glass: 0 4px 16px rgba(12, 12, 32, 0.06);
+}
+
+@layer base {
+  body {
+    background: var(--color-bg-page);
+    color: var(--color-text-primary);
+    font-family: var(--font-family);
+  }
+}
+
+@layer components {
+  .app-screen {
+    @apply flex-1 bg-canvas;
+  }
+
+  .app-scroll-content {
+    @apply px-5 pb-32;
+  }
+
+  .app-page-title {
+    @apply pt-5 font-sans text-3xl font-bold tracking-tight text-ink;
+  }
+
+  .app-card {
+    @apply rounded-card border border-line bg-surface p-5 shadow-glass;
+  }
+
+  .app-card-lg {
+    @apply rounded-card-lg border border-line bg-surface p-5 shadow-glass;
+  }
+
+  .app-card-title {
+    @apply font-sans text-lg font-bold text-ink;
+  }
+
+  .app-body-copy {
+    @apply font-sans text-base leading-6 text-copy;
+  }
+
+  .app-caption {
+    @apply font-sans text-sm text-copy;
+  }
+
+  .app-reading {
+    @apply font-numeric text-3xl font-bold tracking-tight text-ink;
+  }
+
+  .app-button-primary {
+    @apply min-h-[60px] min-w-[125px] items-center justify-center rounded-tl-[33px] rounded-tr-[3px] rounded-br-[33px] rounded-bl-[3px] bg-brand px-6 shadow-token-sm active:bg-brand-hover;
+  }
+
+  .app-button-secondary {
+    @apply min-h-[60px] min-w-[125px] items-center justify-center rounded-tl-[33px] rounded-tr-[3px] rounded-br-[33px] rounded-bl-[3px] bg-secondary px-6 shadow-token-sm active:bg-secondary-hover;
+  }
+
+  .app-glass-card {
+    @apply rounded-card border border-white/80 bg-surface p-5 shadow-glass;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+}

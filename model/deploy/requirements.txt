@@ -1,0 +1,23 @@
+# Service runtime, pinned to the versions the model store was exported and tested with (manifest.json "libraries").
+# torch / torchvision CPU wheels are installed first from the PyTorch CPU index (see Dockerfile).
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+lightgbm==4.5.0
+open-clip-torch==2.29.0
+timm==1.0.30
+huggingface-hub==0.36.2
+safetensors==0.8.0
+pillow==11.0.0
+pyarrow==18.1.0
+ftfy==6.3.1
+regex==2026.9.29
+tqdm==4.70.1
+fastapi==0.115.6
+starlette==0.41.3
+pydantic==2.14.0
+pydantic-core==2.50.0
+uvicorn==0.32.1
+python-multipart==0.0.20
+boto3==1.35.81

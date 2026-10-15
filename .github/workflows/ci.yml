@@ -1,0 +1,42 @@
+# CI for the PMRF service. No AWS access: the event account's credentials are temporary, so deploys run from
+# scripts/deploy.sh on a laptop. Golden and API-flow tests need the model files (S3) and run against the deployed service.
+name: ci
+
+on:
+  pull_request:
+    paths: ["model/**", "scripts/**", "ops/**", "tests/**", "server/**", "infra/**", ".github/workflows/ci.yml"]
+  push:
+    branches: [main, feature/deployment]
+    paths: ["model/**", "scripts/**", "ops/**", "tests/**", "server/**", "infra/**", ".github/workflows/ci.yml"]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install ruff==0.17.0
+      # Errors only (syntax, undefined names), not style, on the service and the scripts deploys use; research scripts are skipped
+      - run: ruff check --select E9,F63,F7,F82 model/pmrf model/service model/tests scripts ops tests server model/scripts/{fetch_model_store,golden_test,load_test,import_cohort,check_store}.py
+      - run: python -m compileall -q model/pmrf model/service ops tests server
+
+  docker-build:
+    runs-on: ubuntu-latest
+    env:
+      MODEL_VERSION: v7-20261010
+    steps:
+      - uses: actions/checkout@v4
+      # The model store is not in git; an empty version directory lets the image build (it is not pushed or run)
+      - run: mkdir -p model/deploy/model_store/$MODEL_VERSION
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: model
+          file: model/deploy/Dockerfile
+          platforms: linux/amd64
+          build-args: MODEL_VERSION=${{ env.MODEL_VERSION }}
+          push: false
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
